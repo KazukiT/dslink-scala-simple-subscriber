@@ -1,5 +1,5 @@
 {
-  "name": "SimpleSubscriber",
+  "name": "dslink-scala-simple-subscriber",
   "version": "0.0.1",
   "description": "Subscribe a DSA node then print it on update",
   "license": "Cisco Sample Code License",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nshimaza/SimpleSubscriberDSLink"
+    "url": "https://github.com/nshimaza/dslink-scala-simple-subscriber"
   },
   "bugs": {
-    "url": "https://github.com/nshimaza/SimpleSubscriberDSLink/issues"
+    "url": "https://github.com/nshimaza/dslink-scala-simple-subscriber/issues"
   },
   "configs": {
     "name": {

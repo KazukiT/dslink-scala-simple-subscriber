@@ -35,10 +35,10 @@ class SimpleSubscriberDSLinkHandler(nodePath: String) extends DSLinkHandler {
   private val log = LoggerFactory.getLogger(getClass)
   override val isRequester = true
 
-  override def onRequesterInitialized(link: DSLink): Unit =  log.info("SimpleSubscriberDSLink initialized")
+  override def onRequesterInitialized(link: DSLink): Unit =  log.info("SimpleSubscriber initialized")
 
   override def onRequesterConnected(link: DSLink): Unit = {
-    log.info("SimpleFileReadDSLink connected")
+    log.info("SimpleSubscriber connected")
 
     link.getRequester.subscribe(nodePath, new Handler[SubscriptionValue] {
       def handle(event: SubscriptionValue): Unit = println(event.getValue.toString)
